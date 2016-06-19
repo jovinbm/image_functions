@@ -1,0 +1,20 @@
+{
+  "name": "image_functions",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jovinbeda@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^4.1.3",
+    "bluebird": "^3.3.4",
+    "cuid": "^1.3.8",
+    "gm": "^1.21.1",
+    "imageinfo": "^1.0.4",
+    "rimraf": "^2.5.2",
+    "underscore": "^1.8.3"
+  }
+}
