@@ -8,4 +8,4 @@ var ImageFunctions = function () {
 
 require('./lib/index')(ImageFunctions);
 
-exports._image_functions = new ImageFunctions();
+exports.image_functions = ImageFunctions;

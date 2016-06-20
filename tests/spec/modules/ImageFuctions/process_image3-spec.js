@@ -1,7 +1,7 @@
 var Promise        = require('bluebird');
 var rimraf         = require('rimraf');
 var path           = require('path');
-var ImageFunctions = require('../../../../index')._image_functions;
+var ImageFunctions = new (require('../../../../index').image_functions)();
 var imageinfo      = require('imageinfo');
 var fs             = require('fs');
 Promise.promisifyAll(fs);

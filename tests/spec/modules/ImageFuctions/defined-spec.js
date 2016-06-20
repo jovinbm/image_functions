@@ -1,4 +1,4 @@
-var ImageFunctions = require('../../../../index')._image_functions;
+var ImageFunctions = new (require('../../../../index').image_functions)();
 
 describe("Image functions should exist::", function () {
   
