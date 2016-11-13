@@ -1,9 +1,9 @@
-var ImageFunctions = new (require('../../../../index').image_functions)();
+const ImageFunctions = new (require('../../../../index').ImageFunctions)();
 
-describe("Image functions should exist::", function () {
+describe('Image functions should exist::', function () {
   
-  it("Should be defined", function () {
+  it('Should be defined', function () {
     expect(ImageFunctions).toBeDefined();
   });
-
+  
 });
