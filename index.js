@@ -1,11 +1,2 @@
-/**
- *
- * @constructor
- */
-const ImageFunctions = function () {
-  this.name = 'ImageFunctions';
-};
-
-require('./lib/index')(ImageFunctions);
-
-exports.ImageFunctions = ImageFunctions;
+exports.processImage3 = require('./lib/processImage3');
+exports.processImage4 = require('./lib/processImage4');
