@@ -1,0 +1,12 @@
+{
+  "globals": {
+    "caches": true,
+    "ga": true,
+    "importScripts": true
+  },
+  "rules": {
+    "no-process-env": "off",
+    "no-var": "off",
+    "vars-on-top": "off"
+  }
+}
